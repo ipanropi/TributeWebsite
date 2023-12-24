@@ -1,0 +1,47 @@
+body{
+  margin: 0;
+}
+
+.header{
+  display: flex;
+  justify-content: flex-start;
+  background-color: #b3d4fc;
+  margin: 0;
+}
+
+.header h1{
+  padding: 0 0 0 15px;
+}
+
+#title{
+  margin: auto;
+  width: 60%;
+  padding: 30px;
+  text-align: center;
+}
+
+#img-div{
+  display: flex;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+img{
+  max-width: 402px;
+  height: 402px;
+}
+
+#tribute-info h2{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+#tribute-info ul{
+  width: 60%;
+  margin: 0 auto;
+
+}
