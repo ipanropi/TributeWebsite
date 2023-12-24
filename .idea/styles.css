@@ -1,11 +1,16 @@
+
+
 body{
   margin: 0;
+  background-color: #222629;
+  color: whitesmoke;
+  font-family: Verdana;
 }
 
 .header{
   display: flex;
   justify-content: flex-start;
-  background-color: #b3d4fc;
+  background-color: #474b4f;
   margin: 0;
 }
 
@@ -43,5 +48,16 @@ img{
 #tribute-info ul{
   width: 60%;
   margin: 0 auto;
+  list-style-type: none;
+}
 
+.tribute-div{
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 1.2em;
+  font-weight: 800;
+  background-color: #555555;
+  margin: 20px;
+  padding: 10px 30px 10px 30px;
+  border-radius: 8px;
 }
